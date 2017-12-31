@@ -1,0 +1,31 @@
+{
+  "name": "tymfrontiers/php-beta-tym",
+  "description": "PHP Beta Tym",
+  "keywords": ["php", "beta", "better", "tym", "time", "formartter","frontiers"],
+  "homepage": "https://github.com/tymfrontiers/php-beta-tym",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Sir Louis",
+          "email": "me@sirlouis.io",
+          "homepage": "https://sirlouis.io",
+          "role": "developer"
+      },
+      {
+          "name": "Tym Frontiers Ltd",
+          "email": "git@tymfrontiers.com",
+          "homepage": "https://tymfrontiers.com",
+          "role": "developer"
+      }
+  ],
+  "require": {
+    "php" : "^5.5 || ^7.0"
+  },
+  "require-dev": {},
+  "autoload": {
+      "psr-4": {
+          "Tymfrontiers\\": "src/"
+      }
+  }
+}
