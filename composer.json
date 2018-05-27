@@ -25,7 +25,7 @@
   "require-dev": {},
   "autoload": {
       "psr-4": {
-          "Tymfrontiers\\": "src/"
+          "TymFrontiers\\": "src/"
       }
   }
 }
