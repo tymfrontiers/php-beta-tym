@@ -85,8 +85,8 @@ class BetaTym{
     $unix = !empty($dateTym) ? strtotime($dateTym) : time();
     return $this->hour($dateTym).':'.strftime(self::MINUTE.':'.self::SECOND, $unix);
   }
-  public function dataTym($dateTym=""){
-    return $this->MDY($dateTym).' by '.$this->HMS($dateTym);
+  public function dateTym($dateTym=""){
+    return $this->MDY($dateTym).' at '.$this->HMS($dateTym);
   }
   public function week($dateTym=""){
     $unix = !empty($dateTym) ? strtotime($dateTym) : time();
